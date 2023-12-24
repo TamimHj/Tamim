@@ -1,0 +1,167 @@
+/*==============HOME=========*/
+/***************BODY***********/
+body {
+    background-image: url(../Cars/Background_image.jpg);
+    background-size: cover;
+}
+/*************HEADER**********/
+.header {
+    background-color: deepskyblue;
+    padding: 10px;
+    color: white;
+    box-sizing: border-box;
+}
+.header h2 {
+    margin-left: 5%;
+    font-size: 5vw;
+    display: inline-block;
+}
+.header img {
+    position: absolute;
+    top: -1%;
+    right: 3%;
+    height: auto;
+    width: 15%;
+}
+/*************NAV************/
+nav {
+    clear: both;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+.navbar-header .active {
+    background-color: #ddd;
+}
+.navbar-brand:hover, .navbar-brand:focus {
+    color: black;
+}
+/*************MAIN***********/
+.price_table .container .row .price_box {
+    background-color: aliceblue;
+    border-radius: 10%;
+    margin: 5px 0;
+    padding: 5%;
+}
+.container .row .price_box img {
+    max-width: 100%;
+    height: 30%;
+    border-radius: 10%;
+    
+}
+.price_table .container .row .price_box ul li {
+    padding: 3px;
+}
+.price_table .container .row .price_box ul {
+    margin-top: 10px;
+}
+/*************NEWS************/
+.news_h {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    color: darkblue;
+    margin-top: 5% 0;
+}
+.news {
+    padding: 0 5%;
+    text-align:center;
+}
+.news div {
+    min-height: 30%;
+}
+.news div:last-child {
+    border-right: 0;
+}
+.news h3 {
+    text-align: center;
+}
+
+/*************FOOTER**********/
+.footer {
+    padding-top: 2%;
+    clear: both;
+}
+.footer form {
+    margin-left: 10%;
+}
+.footer form input {
+width: 90%;
+}
+.footer form textarea {
+    width: 90%;
+    resize: none;
+}
+.footer form input[type='submit']{
+    width: 15%;
+    background-color: dodgerblue;
+    margin-top: 1%;
+    padding: 0%;
+}
+
+/*===========LOGIN==========*/
+/************SLIDE***********/
+.carousel {
+    margin-top: -12px;
+    margin-bottom: 2%;
+}
+.item img {
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+}
+.item {
+    overflow: auto;
+}
+/**************FORM************/
+ .login-form {
+     opacity: 1;
+     padding: 5%;
+     border-radius: 10%;
+     width: 80%;
+     margin: auto;
+}
+.form-group label {
+    opacity: 1;
+}
+
+/*===========SIGN==========*/
+/**************FORM*************/
+.sign-form {
+     padding: 5%;
+     border-radius: 10%;
+     width: 80%;
+     margin: auto;
+}
+.sign-form .btn-success {
+    float: left;
+}
+.sign-form .btn-danger {
+    float: right;
+}
+
+/*============BUY===========*/
+/*************MAIN***********/
+.card .card-img-top {
+    margin: auto;
+    width: 60%;
+    border-radius: 15%;
+}
+.card h1 ,p ,ul{
+    text-align: center;
+}
+.card .card-body .price {
+    font-size: 200%;
+    padding: 2%;
+}
+.card ul {
+    font-size: 150%;
+}
+.card .card-body .pay label{
+    
+    margin-left: 30%;
+}
+.card .card-body .pay .rad{
+    margin-left: 10%;
+
+}
